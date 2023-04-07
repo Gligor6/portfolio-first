@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Luka Gligorijevic</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" media="screen and (max-width:800px)" href="tablet.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact me</a></li>
+        </ul>
+    </nav>
+    <section id="home">
+        <div class="main">
+            <h1 class="headings">I AM LUKA GLIGORIJEVIĆ</h1>
+            <button class="btn" onclick="openInstagram()">Hire me</button>
+        </div>
+    </section>
+
+    <section id="about">
+        <h1 id="headings">ABOUT ME</h1>
+        <div id="pic" class="ides">
+            <img src="img.jpg4.jpg" alt="" class="strahinjaa">
+            <div id="intro">
+                <h2>LUKA GLIGORIJEVIĆ</h2>
+                <p>Ćao! Moje ime je Luka. Rodjen sam u Beogradu, a trenutno živim u Obrenovcu. Rodjen sam 01.09.2006. godine, da znam, mnogi će reći baksuzni datum, jer se na isti dan kreće u školu, a školi se niko ne raduje. Idem u Tehničku školu u Obrenovcu. Učim oblast elektrotehnike, preciznije Elektrotehničar računara. Glavna stvar zbog koje sam upisao ovaj smer jeste taj IT deo učenja, jer mi je cilj u životu da postanem jako dobar programer. Pored škole često idem na selo odakle je moj otac poreklom. Selo je brdsko planinskog tipa, na nekoj nadmorskoj visini oko 800m. Zove se Lještansko a nalazi se blizu Tare. Na selu sa ćaletom i bratom radimo raznorazne poslove, od poljoprivrede do izgradnje nekih manjih objekata. Imam još par hobija, kao što su basket i fudbal sa drugarima, pravljenje igrica u UNITY-u. </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h1 id="headings">PORTFOLIO</h1>
+        <div class="gallery">
+            <img src="Portfolio/img1.jpg" alt="" class="levo">
+            <img src="Portfolio/img2.jpg" alt="" class="sredina">
+            <img src="Portfolio/img3.jpg" alt="" class="desno">
+            <img src="Portfolio/img4.jpeg" alt="" class="levo">
+            <img src="Portfolio/img5.jpg" alt="" class="sredina">
+            <img src="Portfolio/img6.jpg" alt="" class="desno">
+        </div>
+    </section>
+
+    <section id="services">
+        <h1 class="headings servicescolor">SERVICES</h1>
+        <div class="row">
+            <div class="box">
+                <img src="strahinja2.png" alt="">
+                <h1 class="headings">Website design</h1>
+                
+            </div>
+            <div class="box">
+                <img src="strale4.png" alt="">
+                <h1 class="headings">Game <br> Development</h1>
+                
+            </div>
+            <div class="box">
+                <img src="img123-removebg-preview.png" alt="">
+                <h1 class="headings">Digital Marketing</h1>
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h1 class="headings">CONTACT</h1>
+        <form action="" class="form">
+            <input type="text" name="name" class="input" placeholder="Enter Your Name">
+            <input type="email" name="email" class="input" placeholder="Enter Your Email">
+            <textarea name="msg" id="msg" cols="30" rows="10" placeholder="Enter Your Message"></textarea>
+            <input type="submit" value="SEND" id="send">
+        </form>
+    </section>
+</body>
+</html>
